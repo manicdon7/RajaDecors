@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.homebg1{
-    background-image: url("./assests/homebg1.png");
-}
+/* .homebg1{
+    background-image: url("../src/assets/homebg1.png");
+} */
