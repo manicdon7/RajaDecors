@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assests/Raja_Decors_logo.png'
+import logo from '../assets/Raja_Decors_logo.png'
 
 const Navigation = () => {
   return (
@@ -8,11 +8,11 @@ const Navigation = () => {
             <img className='h-36' src={logo} alt="Raja Decors" />
         </div>
         <div className='list-none flex justify-center gap-2 md:mx-0 mx-2 md:gap-20 text-lg'>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <a href=''>Home</a>
+            <a href=''>About Us</a>
+            <a href=''>Services</a>
+            <a href=''>Gallery</a>
+            <a href=''>Contact</a>
         </div>
     </div>
   )
