@@ -2,7 +2,7 @@ import React from 'react'
 import bg5 from '../assets/WhatsApp Image 2024-05-08 at 11.44.10_e34a28c8.jpg';
 import bg1 from '../assets/coordination.png';
 
-const Services = () => {
+const Service = () => {
     return (
         <div>
             <div>
@@ -15,7 +15,7 @@ const Services = () => {
                         <img src={bg5} alt='Decoration' className='w-[100%] h-60 rounded-md' height={100} width={100} />
                         <div>
                             <p className='text-xl font-serif my-3 font-semibold'>
-                                Decoration
+                                Wedding Decoration
                             </p>
                             <p className='text-sm my-3 font-light'>
                                 Wishing your Event held a grand
@@ -29,7 +29,7 @@ const Services = () => {
                         <img src={bg5} alt='Catering' className='w-[100%] h-60 rounded-md' height={100} width={100} />
                         <div>
                             <p className='text-xl font-serif my-3 font-semibold'>
-                                Catering Services
+                                Birthday Decoration
                             </p>
                             <p className='text-sm my-3 font-light'>
                                 Customized catering for any occasion.
@@ -43,7 +43,7 @@ const Services = () => {
                         <img src={bg1} alt='coordination' className='w-[100%] h-60 rounded-md' height={100} width={100} />
                         <div>
                             <p className='text-xl font-serif my-3 font-semibold'>
-                                Day of coordination
+                                Corporate Events
                             </p>
                             <p className='text-sm my-3 font-light'>
                                 Event guidance tailored just for you,
@@ -59,4 +59,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Service

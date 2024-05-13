@@ -9,7 +9,7 @@ import bg5 from '../assets/WhatsApp Image 2024-05-08 at 11.44.10_e34a28c8.jpg';
 import who from '../assets/whowe.png';
 import hall from '../assets/hall.png';
 import Cards from '../Components/Cards';
-import Services from '../Components/Services';
+import Services from '../Components/Service';
 import Offer from '../Components/Offer';
 import Contactus from '../Components/Contactus';
 
