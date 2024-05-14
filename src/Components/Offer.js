@@ -22,20 +22,20 @@ const Offer = () => {
              orci tortor feugiat a cursus ac mollis sit amet purus.
             </p>
         </div>
-        <div>
-            <img className='rounded-2xl hover:scale-105 transition transform' src={offer1} alt='offer1'/>
+        <div className=''>
+            <img className='border-8 border-yellow-400 rounded-2xl hover:scale-105 transition transform' src={offer1} alt='offer1'/>
         </div>
         <div>
-            <img className='rounded-2xl hover:scale-105 transition transform' src={offer2} alt='offer2'/>
+            <img className='border-8 border-yellow-400 rounded-2xl hover:scale-105 transition transform' src={offer2} alt='offer2'/>
         </div>
         <div>
-            <img className='rounded-2xl hover:scale-105 transition transform' src={offer3} alt='offer3'/>
+            <img className='border-8 border-yellow-400 rounded-2xl hover:scale-105 transition transform' src={offer3} alt='offer3'/>
         </div>
         <div>
-            <img className='rounded-2xl hover:scale-105 transition transform' src={offer4} alt='offer4'/>
+            <img className='border-8 border-yellow-400 rounded-2xl hover:scale-105 transition transform' src={offer4} alt='offer4'/>
         </div>
         <div>
-            <img className='rounded-2xl hover:scale-105 transition transform' src={offer5} alt='offer5'/>
+            <img className='border-8 border-yellow-400 rounded-2xl hover:scale-105 transition transform' src={offer5} alt='offer5'/>
         </div>
     </div>
   )
