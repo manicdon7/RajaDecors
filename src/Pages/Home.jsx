@@ -12,6 +12,7 @@ import Cards from '../Components/Cards';
 import Services from '../Components/Service';
 import Offer from '../Components/Offer';
 import Contactus from '../Components/Contactus';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   const [bgIndex, setBgIndex] = useState(0);
