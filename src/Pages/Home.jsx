@@ -52,7 +52,7 @@ const Home = () => {
         </div>
         <div>
           <div>
-            <p className='text-3xl text-[#F1518B] font-semibold mx-10 md:mx-32 mt-16 mb-10 '>Who We Are</p>
+            <p className='text-3xl text-blue-600 font-semibold mx-10 md:mx-32 mt-16 mb-10 '>Who We Are</p>
 
             <div className='mx-10 md:mx-32 my-2 md:space-x-28 gap-10 md:gap-0 grid md:grid-cols-2 grid-cols-1'>
               <p className='font-serif md:text-6xl text-2xl'>Raja Decors - Where Every Petal Paints Your Perfect Day</p>

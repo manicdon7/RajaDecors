@@ -7,7 +7,7 @@ const Service = () => {
         <div>
             <div>
                 <div>
-                    <p className='md:text-3xl text-4xl text-[#F1518B] font-semibold text-center my-5 uppercase'>Services</p>
+                    <p className='md:text-3xl text-4xl text-blue-600 font-semibold text-center my-5 uppercase'>Services</p>
                     <p className='text-center font-serif md:text-5xl text-2xl'>Services We Bring You</p>
                 </div>
                 <div className='grid md:grid-cols-3 grid-cols-1 md:mx-32 mx-10 space-y-6 md:space-y-0 my-10'>

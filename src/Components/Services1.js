@@ -15,15 +15,15 @@ const Service1 = () => {
                     </div>
                     <Cards />
                     <div>
-                        <p className='font-serif mx-40 text-5xl text-yellow-400 my-20 font-light'>
+                        <p className='font-serif mx-8 md:mx-40 md:text-5xl text-3xl text-yellow-400 my-20 font-light'>
                             Unmatched Quality and Service
                         </p>
-                        <div className='grid grid-cols-2 mx-40'>
+                        <div className='grid md:grid-cols-2 grid-cols-1 mx-8 md:mx-40'>
                             <div>
                             <img src={unmatch} alt='unmatch' className='h-[100%] w-[100%]' />
                             </div>
                             <div>
-                                <p className='font-serif font-light leading-relaxed text-2xl mx-10'>
+                                <p className='font-serif font-light leading-relaxed text-2xl md:mx-10 mx-0 my-2 md:my-0'>
                                 At Raja Decors, quality and service are at the heart of everything we do.
                                  We source only the freshest blooms from trusted growers, hand-selecting
                                   each stem for its beauty and vitality. Our commitment to excellence 
@@ -32,15 +32,15 @@ const Service1 = () => {
                                 </p>
                             </div>
                         </div>
-                        <p className='font-serif mx-40 text-5xl text-blue-600 my-20 font-light'>
+                        <p className='font-serif mx-8 md:mx-40 text-3xl md:text-5xl text-blue-600 my-20 font-light'>
                         Wedding Reception & Mugurtham 
                         </p>
-                        <div className='grid grid-cols-2 mx-40'>
+                        <div className='grid md:grid-cols-2 grid-cols-1 mx-8 md:mx-40'>
                             <div>
                             <img src={hall} alt='unmatch' className='h-[100%] w-[100%]' />
                             </div>
                             <div>
-                                <p className='font-serif font-light leading-relaxed text-2xl mx-10'>
+                                <p className='font-serif font-light leading-relaxed text-2xl mx-0 md:mx-10 my-2 md:my-0'>
                                 At Raja Decors, quality and service are at the heart of everything we do.
                                  We source only the freshest blooms from trusted growers, hand-selecting
                                   each stem for its beauty and vitality. Our commitment to excellence 
