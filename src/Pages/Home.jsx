@@ -67,7 +67,7 @@ const Home = () => {
                   <button className='border border-[#F1518B] hover:bg-[#F1518B] hover:text-white px-3 py-2 my-5 rounded-3xl font-semibold'>Know More About Us</button>
                 </div>
                 <img src={peacock} alt='peacock' className='h-60 w-60 md:block hidden' />
-              </div>
+              </div> 
             </div>
           </div>
         </div>
