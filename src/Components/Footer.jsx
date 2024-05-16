@@ -8,7 +8,7 @@ import logo1 from '../assets/Raja_Decors_logo gold.png';
 
 const Footer = () => {
   return (
-    <div className='bg-blue-600 text-white'>
+    <div className='bg-[#016795] text-white'>
         <div className='flex items-center justify-center'>
             <img className='h-24 md:w-0 w-36 my-3' src={logo1} alt="Raja Decors" />
         </div>
