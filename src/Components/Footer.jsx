@@ -1,73 +1,58 @@
 import React from 'react'
-import logo from '../assets/Raja_Decors_logo.png'
 import facebook from '../assets/facebook.png';
-import twitter from '../assets/twitter.png';
-import linkedIn from '../assets/linkedIn.png';
 import youtube from '../assets/youtube.png';
-import logo1 from '../assets/Raja_Decors_logo gold.png';
+import logo1 from '../assets/Raja_Decors_logo 1.png';
 
 const Footer = () => {
-    return (
-        <div className='bg-[#016795] text-white'>
-            <div className='flex items-center justify-center'>
-                <img className='h-24 md:w-36 w-36 my-3' src={logo1} alt="Raja Decors" />
+  return (
+    <div className='bg-[#1c4355] text-white'>
+        <div className='flex items-center justify-center'>
+            <img className='h-44 mt-10' src={logo1} alt="Raja Decors"/>
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-3 mx-20 mt-20'>
+            <div className='list-none flex flex-col gap-2 pl-40 md:mx-0 mx-2 text-3xl poppins-semibold'>
+                <a href=''>Home</a>
+                <a href=''>About Us</a>
+                <a href='/services'>Services</a>
+                <a href=''>Gallery</a>
+                <a href='/contact'>Contact</a>
             </div>
-            <div className='grid md:grid-cols-3 grid-cols-1 space-y-2'>
-                <div className='list-none flex justify-center md:text-2xl font-serif gap-2 md:mx-0 mx-2 md:gap-20 text-lg'>
-                    <ul className='space-y-2'>
-                        <p>
-                            <a href='' className='text-white hover:text-[#FD8901]'>Home</a> <br />
-                        </p>
-                        <p>
-                            <a href='' className='text-white hover:text-[#FD8901]'>About Us</a> <br />
-                        </p>
-                        <p>
-                            <a href='/services' className='text-white hover:text-[#FD8901]'>Services</a> <br />
-                        </p>
-                        <p>
-                            <a href='' className='text-white hover:text-[#FD8901]'>Gallery</a> <br />
-                        </p>
-                        <p>
-                            <a href='/contact' className='text-white hover:text-[#FD8901]'>Contact</a> <br />
-                        </p>
-                    </ul>
-                </div>
-                <div className='space-y-4 text-center my-4'>
-                    <p className='font-semibold text-3xl text-[#FD8901]'>Visit us</p>
-                    <p className='text-xl'>
-                        No:11/163 vadakkupattu <br />
-                        mainroad,kovilambakkam,chennai-600129
-                    </p>
-                </div>
-                <div className='space-y-2 text-center my-4'>
-                    <p className='font-semibold text-3xl text-[#FD8901]'>Contact</p>
-                    <p>
-                        <a href="mailto:rajadecorator1980@gmail.com" className='text-xl'>rajadecorator1980@gmail.com</a> <br />
-                    </p>
-                    <p href="" className='text-xl'>+91 99402 29923</p>
+            <div className='text-center'>
+                <div className='text-[#FD8901] ubuntu-bold text-2xl'>Visit us</div>
+                <div className='poppins-regular text-2xl py-4'>
+                    No:11/163 vadakkupattu mainroad,kovilambakkam,<br/>chennai-600129
                 </div>
             </div>
-            <div className='flex justify-center gap-8 mx-4 md:mx-0'>
-                <a href=''>
-                    <img className='h-16 my-8' src={facebook} alt='facebook' />
-                </a>
-                <a href=''>
-                    <img className='h-16 my-8' src={twitter} alt='twitter' />
-                </a>
-                <a href=''>
-                    <img className='h-16 my-8' src={linkedIn} alt='linkedIn' />
-                </a>
-                <a href=''>
-                    <img className='h-16 my-8' src={youtube} alt='youtube' />
-                </a>
-            </div>
-            <div>
-                <p className='md:text-xl text-lg text-center pb-8'>
-                    ©<span className='text-[#FD8901]'>Raja Decors</span>. all rights reserved
-                </p>
+            <div className='text-center'>
+                <div className='text-[#FD8901] ubuntu-bold text-2xl'>Contact</div>
+                <div className='poppins-regular text-2xl py-4'>
+                    <p>rajadecorator1980@gmail.com</p>
+                    <p>+91 99402 29923</p>
+                    <p>+91 98406 01980</p>
+                </div>
             </div>
         </div>
-    )
+        <div className='flex justify-center items-center gap-8 mx-4 md:mx-0'>
+            <a href=''>
+                <img className='h-16 my-8'  src={facebook} alt='facebook'/>
+            </a>
+            <a href='' className='bg-white p-2 rounded-full'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                </svg>
+            </a>
+            <a href=''>
+                <img className='h-16 my-8'  src={youtube} alt='youtube'/>
+            </a>
+        </div>
+        <div className='poppins-bold capitalize'>
+            <p className='md:text-xl text-lg text-center pb-8'>
+            ©<span className='text-amber-500'>Raja Decors</span>. all rights reserved
+            </p>
+        </div>
+    </div>
+  )
+
 }
 
 export default Footer;
