@@ -19,6 +19,7 @@ const Service1 = () => {
                     </div>
                     <Cards />
                     <div>
+
                         <div className='hidden md:flex justify-end py-10 pr-10'>
                             <img src={peacock} alt='peacock' className=''/>
                         </div>
@@ -44,7 +45,6 @@ const Service1 = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className='bg-gradient-to-b from-[#ffd8ab] via-ffd8ab to-[#eda754] mx-4 my-5 md:ml-40 md:mr-20 rounded-3xl md:my-10'>
                             <div className='mx-8 md:mx-14 md:text-4xl text-2xl py-4 text-blue-700 font-semibold ubuntu-bold  text-center'>
                                 Wedding Reception & Mugurtham
@@ -67,7 +67,6 @@ const Service1 = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className='bg-gradient-to-b from-[#ffd8ab] via-ffd8ab to-[#eda754] mx-4 my-5 md:ml-40 md:mr-20 rounded-3xl md:my-10'>
                             <div className='mx-8 md:mx-14 md:text-4xl text-2xl py-4 text-blue-700 font-semibold ubuntu-bold  text-center'>
                                 Entrance Decoration
