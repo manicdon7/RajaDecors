@@ -9,13 +9,13 @@ const Offer = () => {
   return (
     <div className='grid md:grid-cols-3 grid-cols-1 gap-10 md:mx-32 mx-10 md:mt-40 mt-10    '>
         <div className='w-80 m-5'>
-            <p className='font-light text-4xl font-serif my-2'>
-            What we Offer
+            <p className='font-semibold text-4xl heading my-2 text-blue-700'>
+            What We Offer
             </p>
-            <h1 className='font-light text-xl font-serif text-[#F1518B] my-2'>
+            <h1 className='font-semibold text-2xl font-serif text-[#FD8901] my-2'>
             We Offer a Range of Event.
             </h1>
-            <p className='font-light md:text-lg font-serif my-2 text-left'>
+            <p className='font-light md:text-lg poppins-regular my-2 text-left'>
             Lorem ipsum dolor sit amet consectetur adipiscing 
             elit sed pharetra urna ac lobortis vestibulum nisl 
             elit iaculis velit ac vulputate ante odio a sem cras

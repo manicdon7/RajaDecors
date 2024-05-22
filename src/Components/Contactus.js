@@ -1,9 +1,11 @@
 import React from 'react'
+
 import servicepng from '../assets/service.png';
 import mail from '../assets/mail.png';
 import phone from '../assets/phone.png';
 import peacockimg from '../assets/peacockwatermark-2 1.png';
 import whatsApp from '../assets/WhatsApp.png'
+import contacting from '../assets/contactusimg.png';
 
 const Contactus = () => {
     return (
@@ -21,11 +23,13 @@ const Contactus = () => {
             <div className='grid grid-cols-2'>
             <div className='mx-10 md:mx-32 my-20'>
                 <div>
+
                     <p className='text-[#FD8901] font-bold text-6xl'>Visit us</p>
                 </div>
                 <p className='font-medium text-2xl py-6'>
                     No:11/163, Vadakkupattu mainroad, <br />
                     Kovilambakkam, Chennai-600129
+
 
                 </p>
                 <div>

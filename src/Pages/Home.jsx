@@ -47,31 +47,33 @@ const Home = () => {
           <p className='drop-shadow-2xl shadow-2xl border-gray-400 font-serif'>Welcome to Raja Decors - Where Dreams Blossom into Reality</p>
         </div>
       </div>
+      <div className='heading text-2xl md:text-4xl mx-4 md:mx-40 font-semibold my-8 text-center'>
+        Available Services
+      </div>
       <div className='z-20 pt-5'>
         <Cards />
       </div>
       <div>
         <div>
-          <p className='text-3xl text-blue-600 font-semibold mx-10 md:mx-32 mt-16 mb-10 '>Who We Are</p>
+          <p className='heading text-3xl text-blue-600 font-semibold mx-10 md:mx-32 mt-16 mb-10'>WHO WE ARE</p>
 
           <div className='mx-10 md:mx-32 my-2 md:space-x-28 gap-10 md:gap-0 grid md:grid-cols-2 grid-cols-1'>
-            <p className='font-serif md:text-6xl text-2xl'>Raja Decors - Where Every Petal Paints Your Perfect Day</p>
-            <img src={who} alt="who we are" className='' />
+            <p className='heading md:text-6xl text-2xl text-[#FD8901] font-semibold'>Raja Decors - Where Every Petal Paints Your Perfect Day</p>
+            <img src={who} alt="who we are" className='border-4 border-[#FFD700]' />
           </div>
           <div className='mx-10 md:mx-32 mt-20 md:space-x-10 gap-10 md:gap-0 grid md:grid-cols-2 grid-cols-1'>
-            <img src={hall} alt="hall" />
+            <img src={hall} alt="hall" className='border-4 border-[#FFD700]' />
             <div>
-              <p className='font-serif font-extralight md:text-2xl'>From intimate gatherings to grand celebrations, we are dedicated to bringing your unique vision to life. Our passion for floral artistry drives us to create bespoke arrangements that perfectly complement your style, theme, and ambiance, ensuring every detail is a reflection of your personality and taste.</p>
+              <p className='font-extralight md:text-3xl text-xl poppins-regular'>From intimate gatherings to grand celebrations, we are dedicated to bringing your unique vision to life. Our passion for floral artistry drives us to create bespoke arrangements that perfectly complement your style, theme, and ambiance, ensuring every detail is a reflection of your personality and taste.</p>
               <div className='grid justify-between md:grid-cols-2 grid-cols-1'>
                 <div>
-                  <button className='border border-[#F1518B] hover:bg-[#F1518B] hover:text-white px-3 py-2 my-5 rounded-3xl font-semibold'>Know More About Us</button>
+                  <button className='border border-[#FD8901] bg-[#FFEF99] hover:bg-[#FD8901] hover:text-white px-3 py-2 my-5 rounded-3xl font-semibold'>Know More About Us</button>
                 </div>
-                <img src={peacock} alt='peacock' className='h-60 w-60 md:block hidden' />
               </div> 
             </div>
           </div>
         </div>
-        <div className='z-30'>
+        <div className='z-30 mt-20'>
           <Services />
         </div>
         <div>
