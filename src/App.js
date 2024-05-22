@@ -8,7 +8,7 @@ import About from './Pages/About';
 import whatsApp from './assets/WhatsApp.png';
 
 function App() {
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=7299424311`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=9940229923`;
   
     const handleClick = () => {
       window.open(whatsappUrl, '_blank');
