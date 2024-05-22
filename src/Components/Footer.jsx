@@ -9,8 +9,8 @@ const Footer = () => {
         <div className='flex items-center justify-center'>
             <img className='h-44 mt-10' src={logo1} alt="Raja Decors"/>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 mx-20 mt-20'>
-            <div className='list-none flex flex-col gap-2 pl-40 md:mx-0 mx-2 text-3xl poppins-semibold'>
+        <div className='grid grid-cols-1 md:grid-cols-3 px-0 mx-0 md:mx-20 mt-20'>
+            <div className='list-none flex flex-col gap-2 justify py-4 pl-28 md:pl-40 md:mx-0 text-3xl poppins-semibold'>
                 <a href=''>Home</a>
                 <a href=''>About Us</a>
                 <a href='/services'>Services</a>

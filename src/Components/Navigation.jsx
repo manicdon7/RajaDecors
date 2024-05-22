@@ -7,9 +7,9 @@ const Navigation = () => {
         <div className='flex items-center justify-center'>
             <img className='h-24' src={logo} alt="Raja Decors" />
         </div>
-        <div className='list-none flex justify-center gap-2 md:mx-0 mx-2 md:gap-32 text-2xl'>
-            <a href=''>Home</a>
-            <a href=''>About Us</a>
+        <div className='list-none flex justify-center text-lg gap-2 md:mx-0 mx-2 md:gap-32 md:text-2xl'>
+            <a href='/'>Home</a>
+            <a href='about'>About Us</a>
             <a href='/services'>Services</a>
             <a href=''>Gallery</a>
             <a href='/contact'>Contact</a>
