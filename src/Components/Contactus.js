@@ -3,10 +3,14 @@ import servicepng from '../assets/service.png';
 import mail from '../assets/mail.png';
 import phone from '../assets/phone.png';
 import peacockimg from '../assets/peacockwatermark-2 1.png';
+import whatsApp from '../assets/WhatsApp.png'
 
 const Contactus = () => {
     return (
         <div>
+            <div className='fixed top-72 right-0 z-50'>
+        <img className='bg-[#3DDA3A] hover:pl-6 hover:pr-3 hover:cursor-pointer py-2 pl-3 rounded-l-full' src={whatsApp} alt="whatsapp" />
+      </div>
             <div className='flex justify-center mt-3'>
                 <div className='bg-cover bg-center w-screen' style={{ backgroundImage: `url(${servicepng})` }}>
                     <div className='text-white text-2xl md:text-7xl font-bold py-24 md:py-40 text-center'>
