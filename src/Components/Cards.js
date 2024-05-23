@@ -7,7 +7,7 @@ import proffess from '../assets/professional.png';
 const Cards = () => {
   return (
     <div>
-        <div className='md:mx-16 mx-8 space-y-5 md:space-y-0 grid md:grid-cols-4 grid-cols-1'>
+        <div className='md:mx-16 mx-5 space-y-5 md:space-y-0 grid md:grid-cols-4 grid-cols-1'>
             <div className='border-gray-900 shadow-2xl drop-shadow-2xl rounded-2xl p-4 w-80 bg-blue-100'>
                 <img src={exp} alt='experience' className='mx-24 my-3'/>
                 <h1 className='text-3xl font-semibold text-center'>Wedding</h1>

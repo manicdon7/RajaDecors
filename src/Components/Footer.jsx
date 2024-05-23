@@ -19,13 +19,13 @@ const Footer = () => {
             </div>
             <div className='text-center'>
                 <div className='text-[#FD8901] ubuntu-bold text-2xl'>Visit us</div>
-                <div className='poppins-regular text-2xl py-4'>
+                <div className='poppins-regular md:text-2xl text-xl py-4'>
                     No:11/163 vadakkupattu mainroad,kovilambakkam,<br/>chennai-600129
                 </div>
             </div>
             <div className='text-center'>
                 <div className='text-[#FD8901] ubuntu-bold text-2xl'>Contact</div>
-                <div className='poppins-regular text-2xl py-4'>
+                <div className='poppins-regular md:text-2xl text-xl py-4'>
                     <p>rajadecorator1980@gmail.com</p>
                     <p>+91 99402 29923</p>
                     <p>+91 98406 01980</p>

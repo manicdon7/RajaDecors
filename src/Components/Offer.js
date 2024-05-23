@@ -7,15 +7,15 @@ import offer5 from '../assets/whatweoffer5.png'
 
 const Offer = () => {
   return (
-    <div className='grid md:grid-cols-3 grid-cols-1 gap-10 md:mx-32 mx-10 md:mt-40 mt-10    '>
-        <div className='w-80 m-5'>
+    <div className='grid md:grid-cols-3 grid-cols-1 gap-10 md:mx-32 mx-10 md:mt-40 mt-10'>
+        <div className='md:w-80 md:m-5 mx-3'>
             <p className='font-semibold text-4xl heading my-2 text-blue-700'>
             What We Offer
             </p>
             <h1 className='font-semibold text-2xl font-serif text-[#FD8901] my-2'>
             We Offer a Range of Event.
             </h1>
-            <p className='font-light md:text-lg poppins-regular my-2 text-left'>
+            <p className='font-light md:text-lg text-base poppins-regular my-2 text-left'>
             Lorem ipsum dolor sit amet consectetur adipiscing 
             elit sed pharetra urna ac lobortis vestibulum nisl 
             elit iaculis velit ac vulputate ante odio a sem cras

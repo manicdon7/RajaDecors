@@ -10,7 +10,7 @@ const Service = () => {
                     <p className='md:text-3xl text-4xl heading text-blue-600 font-semibold text-center my-5 uppercase'>Services</p>
                     <p className='text-center text-[#FD8901] heading md:text-5xl text-2xl'>Services We Bring You</p>
                 </div>
-                <div className='grid md:grid-cols-3 gap-32 grid-cols-1 md:mx-32 mx-10 space-y-6 md:space-y-0 my-10'>
+                <div className='grid md:grid-cols-3 gap-32 grid-cols-1 md:mx-32 mx-5 space-y-6 md:space-y-0 my-10'>
                     <div className='w-80 shadow-2xl drop-shadow-2xl border-gray-800 rounded-3xl px-3 py-4 hover:scale-105 transition transform'>
                         <img src={bg5} alt='Decoration' className='w-[100%] h-60 rounded-md' height={100} width={100} />
                         <div>
