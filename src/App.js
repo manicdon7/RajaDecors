@@ -6,6 +6,7 @@ import Services from './Pages/Services';
 import Footer from './Components/Footer';
 import About from './Pages/About';
 import whatsApp from './assets/WhatsApp.png';
+import Gallery from './Pages/Gallery';
 
 function App() {
     const whatsappUrl = `https://api.whatsapp.com/send?phone=9940229923`;
@@ -25,6 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </Router>
