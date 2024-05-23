@@ -1,42 +1,63 @@
 import React from 'react'
+
+import servicepng from '../assets/service.png';
+import mail from '../assets/mail.png';
+import phone from '../assets/phone.png';
+import peacockimg from '../assets/peacockwatermark-2 1.png';
+import whatsApp from '../assets/WhatsApp.png'
 import contacting from '../assets/contactusimg.png';
 
 const Contactus = () => {
     return (
         <div>
+            <div className='fixed top-72 right-0 z-50'>
+        <img className='bg-[#3DDA3A] hover:pl-6 hover:pr-3 hover:cursor-pointer py-2 pl-3 rounded-l-full' src={whatsApp} alt="whatsapp" />
+      </div>
+            <div className='flex justify-center mt-3'>
+                <div className='bg-cover bg-center w-screen' style={{ backgroundImage: `url(${servicepng})` }}>
+                    <div className='text-white text-2xl md:text-7xl font-bold py-24 md:py-40 text-center'>
+                        <p className='border-2 border-white mx-4 md:mx-40 py-10 md:py-8 rounded-2xl'>Contact Us</p>
+                    </div>
+                </div>
+            </div>
+            <div className='grid grid-cols-2'>
             <div className='mx-10 md:mx-32 my-20'>
                 <div>
-                    <p className='text-4xl text-center text-[#FD8901] ubuntu-bold'>
-                        CONTACT US
-                    </p>
-                </div>
-                <div className='flex md:justify-center md:gap-10 md:flex-row flex-col'>
-                    <div className=''>
-                        <img src={contacting} alt='contactimg' className='py-10  rounded-lg' />
-                    </div>
-                    <div className='py-10'>
-                        <div>
-                            <p className='text-[#FD8901] ubuntu-bold text-3xl text-center'>Visit us</p>
-                        </div>
-                        <p className='poppins-regular text-4xl py-6 text-center'>
-                        No:11/163, Vadakkupattu mainroad, Kovilambakkam,
-                        <br/>Chennai-600129
-                        </p>
-                        <div>
-                            <p className='text-[#FD8901] ubuntu-bold text-3xl text-center'>Contact</p>
-                            <div className='poppins-regular text-4xl py-3 text-center'>rajadecorator1980@gmail.com</div>
-                            <p className='poppins-regular text-4xl py-3 text-center'>+91 99402 29923</p>
-                            <p className='poppins-regular text-4xl py-3 text-center'>+91 98406 01980</p>
-                            <div className='space-y-5'>
-                                <input placeholder='   Email' className='w-72 h-16 md:w-full py-2 rounded-2xl border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br />
-                                <textarea placeholder='   Message' className='py-3 h-28 w-72 md:w-full rounded-2xl border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br/>
-                                <button className='border border-[#FD8901] bg-[#FFEF99] hover:bg-[#FD8901] hover:text-white px-16 py-2 my-5 rounded-3xl font-semibold'>Submit</button>
-                            </div>
 
+                    <p className='text-[#FD8901] font-bold text-6xl'>Visit us</p>
+                </div>
+                <p className='font-medium text-2xl py-6'>
+                    No:11/163, Vadakkupattu mainroad, <br />
+                    Kovilambakkam, Chennai-600129
+
+
+                </p>
+                <div>
+                    <p className='text-[#FD8901] font-bold text-6xl my-5'>Contact</p>
+                    <div>
+                        <div className='flex space-x-7'>
+                            <img src={mail} alt='mail' className='h-7 w-7 my-3' />
+                            <p className='font-medium text-2xl pt-3 py-1'>rajadecorator1980@gmail.com</p>
+                        </div>
+                        <div className='flex space-x-7'>
+                            <img src={phone} alt='phone' className='h-7 w-7 my-1' />
+                            <p className='font-medium text-2xl py-1'>+91 99402 29923, +91 98406 01980</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div>
+                <img src={peacockimg} alt='peacock' className='mt-32 mx-20'/>
+            </div>
+            </div>
+            <div className='space-y-5 mx-32 mb-20'>
+                        <h1 className='font-bold text-6xl text-[#FD8901]'>Email us</h1>
+                        <input placeholder='   name' type='email' className='w-80 md:w-6/12 py-3 rounded-lg border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br />
+                        <input placeholder='   phone' type='number' className='w-80 md:w-6/12 py-3 rounded-lg border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br />
+                        <input placeholder='   Email' type='text' className='w-80 md:w-6/12 py-3 rounded-lg border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br />
+                        <textarea placeholder='   Message' className='py-3 w-80 md:w-6/12 rounded-lg border-2 hover:border-[#FD8901] bg-[#F2F2F2]' /> <br />
+                        <button className='py-3 w-80 md:w-6/12 rounded-lg border-2 bg-[#FD8901] text-white hover:border-[#FD8901] bg-[#F2F2F2]font-semibold'>Send Message</button>
+                    </div>
         </div>
     )
 }
