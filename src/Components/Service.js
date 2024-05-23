@@ -1,5 +1,5 @@
 import React from 'react'
-import bg5 from '../assets/WhatsApp Image 2024-05-08 at 11.44.10_e34a28c8.jpg';
+import bg5 from '../assets/AboutusLanding.jpg';
 import bg1 from '../assets/coordination.png';
 
 const Service = () => {

@@ -3,7 +3,7 @@ import logo from '../assets/Raja_Decors_logo.png'
 
 const Navigation = () => {
   return (
-    <div className=''>
+    <div className='py-3'>
         <div className='flex items-center justify-center'>
             <img className='h-24' src={logo} alt="Raja Decors" />
         </div>

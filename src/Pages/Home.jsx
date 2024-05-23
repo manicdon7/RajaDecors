@@ -5,7 +5,7 @@ import bg1 from '../assets/Raja_Decors_logo.png';
 import bg2 from '../assets/WhatsApp Image 2024-05-08 at 11.44.09_15330b37.jpg';
 import bg3 from '../assets/WhatsApp Image 2024-05-08 at 11.44.09_827abe77.jpg';
 import bg4 from '../assets/WhatsApp Image 2024-05-08 at 11.44.10_9af52197.jpg';
-import bg5 from '../assets/WhatsApp Image 2024-05-08 at 11.44.10_e34a28c8.jpg';
+import bg5 from '../assets/AboutusLanding.jpg';
 import who from '../assets/whowe.png';
 import hall from '../assets/hall.png';
 import Cards from '../Components/Cards';
